@@ -35,6 +35,8 @@ namespace CreateMaze
 				// 렌더링
 				Console.SetCursorPosition(0, 0);
 				board.Render();
+
+				// git test용 추가 문구
 			}
 		}
 	}
