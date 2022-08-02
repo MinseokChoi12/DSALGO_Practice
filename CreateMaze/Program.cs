@@ -13,7 +13,7 @@ namespace CreateMaze
 
 			Console.CursorVisible = false;
 
-			const int WAIT_TICK = 1000 / 30;
+			const int WAIT_TICK = 5000 / 30;
 
 			int lastTick = 0;
 			while (true)
@@ -35,8 +35,6 @@ namespace CreateMaze
 				// 렌더링
 				Console.SetCursorPosition(0, 0);
 				board.Render();
-
-				// git test용 추가 문구
 			}
 		}
 	}
